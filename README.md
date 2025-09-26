@@ -7,7 +7,7 @@ This repository contains various games developed using Jac programming language 
 Each game has its own dedicated branch:
 
 - `main` - Main branch with project overview and setup instructions
-- `tic-tac-toe` - Tic-tac-toe game implementation
+- `python-tic-tac-toe` - Tic-tac-toe game implementation in Python
 - `snake-game` - Snake game with AI features
 - `puzzle-game` - Puzzle solving game
 - `word-game` - Word-based games
