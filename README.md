@@ -1,30 +1,23 @@
-# Generative-AI Game Collection
+# Generative AI Game Collection
 
-This repository contains various games developed using Jac programming language and AI technologies.
+AI-enhanced games built with Jac language and Python.
 
-## Branches Structure
+## Games
+- `flappy_playable.jac` - Flappy Bird with AI competition
+- `ai_game.jac` - AI-enhanced number guessing
+- `guess_game.jac` - API-ready guessing game
+- `simple_guess.jac` - Basic scale-agnostic demo
 
-Each game has its own dedicated branch:
+## Quick Start
+```bash
+git clone https://github.com/Rockie6/Generative-AI.git
+cd Generative-AI
+python3 -m venv env_Generative-AI
+source env_Generative-AI/bin/activate
+pip install jaclang pygame
 
-- `main` - Main branch with project overview and setup instructions
-- `tic-tac-toe` - Tic-tac-toe game implementation
-- `snake-game` - Snake game with AI features
-- `puzzle-game` - Puzzle solving game
-- `word-game` - Word-based games
-- `card-game` - Card games implementation
-- `strategy-game` - Strategy games
-- `arcade-game` - Arcade-style games
-
-## Setup Instructions
-
-1. Clone the repository
-2. Create and activate a Python virtual environment
-3. Install jaclang: `pip install jaclang`
-4. Switch to the desired game branch
-5. Run the game: `jac run game.jac`
-
-## Technologies Used
-
-- Jac Programming Language
-- Python
-- AI/ML libraries (as needed per game)
+# Run games
+jac run flappy_playable.jac
+jac run ai_game.jac
+jac run guess_game.jac
+```
