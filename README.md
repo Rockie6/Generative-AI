@@ -1,6 +1,6 @@
 # Generative AI Game Collection
 
-AI-enhanced games built with Jac language and Python.
+AI-enhanced games built with Jac language and Python..
 
 ## Games
 - `flappy_playable.jac` - Flappy Bird with AI competition
